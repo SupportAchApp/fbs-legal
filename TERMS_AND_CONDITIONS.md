@@ -1,15 +1,17 @@
 # Terms and Conditions
 
 **App:** Simworld Air
-**Version:** 1.0
-**Effective date:** 2026-09-10
-**Last updated:** 2026-09-10
+**Version:** 1.1
+**Effective date:** 2026-09-19
+**Last updated:** 2026-09-19
 
 ---
 
 ## 1. Acceptance of Terms
 
 By downloading, installing, or using the Simworld Air mobile application ("App"), you agree to be bound by these Terms and Conditions ("Terms"). If you do not agree, do not use the App.
+
+The Privacy Policy is a notice describing data processing, not a blanket consent. Optional analytics, crash reporting, and Android advertising choices are requested separately and may be refused or withdrawn without losing ordinary access to the App.
 
 We may update these Terms at any time. When we do, we will increment the version number and prompt you to review and accept the new version before you can continue using the App.
 
@@ -49,7 +51,7 @@ Your Miles balance, achievements, saved traveler information, saved payment meth
 ## 5. Miles — Simulated In-App Currency
 
 - "**Miles**" are a virtual, in-app unit with **no real-world monetary value**. They are not currency, are not redeemable for cash or any real-world good or service, and have no value outside the App. Any resemblance to real airline loyalty-currency names is thematic only.
-- You may acquire Miles via: a starting balance granted at account creation, an automatic fixed monthly refill, a **daily claim** you can make once per calendar day (with a limited catch-up for days you missed, and a bonus at consecutive-day milestones), and achievement rewards. The calendar day is determined by our server in the Africa/Casablanca time zone, not by your device's clock.
+- You may acquire Miles via a starting balance, an automatic fixed monthly refill, achievements and games. The iOS edition offers a **daily claim**. The free Android edition may instead offer an optional rewarded advertisement in a future version, subject to availability and the privacy/consent controls described in the Privacy Policy. Watching or attempting an ad never guarantees availability; Miles are credited only after valid server-side verification.
 - **Buying Miles with real money is not currently available.** We may introduce an optional in-app purchase in a future version once the App's core loop is validated; these Terms and the in-app store listings will be updated before that feature goes live, and it will always be processed exclusively through Apple's or Google's official billing systems — never collected directly by us.
 - Miles cannot be sold, traded, gifted, or transferred between accounts, and carry no guarantee of continued availability — we may adjust earning rates, spending costs, or caps at any time.
 - All changes to your Miles balance are processed and validated **server-side**. We reserve the right to correct, reverse, or void any balance resulting from a technical error, exploit, or violation of these Terms, including creating multiple accounts to farm daily claims or achievements.
@@ -58,11 +60,14 @@ Your Miles balance, achievements, saved traveler information, saved payment meth
 
 ## 6. Purchase of the App, Pricing and Refunds
 
-**The App contains no advertising.** Earlier versions offered optional rewarded-video advertisements; that feature and its advertising SDK were removed in September 2026. No advertising identifier is collected and no advertising network receives any data from the App.
+The distribution model differs by platform:
 
-The App is distributed as a **paid app** on the Apple App Store and Google Play. The price shown to you is set per territory by the store and includes any taxes the store collects on our behalf.
+- **iOS:** normally paid upfront, with no advertising SDK or rewarded advertising. We may run temporary promotional campaigns during which the App is free for a defined period, such as one month, before the regular price resumes.
+- **Android:** free to download. The current release does not enable rewarded advertising; a future Android version may offer optional Google AdMob rewarded videos for virtual Miles. Advertising is not required for the ordinary booking simulation; refusing consent simply means an ad cannot be requested.
 
-- **Apple and Google handle the sale, not us.** Your payment is processed entirely by the store you bought from, under that store's own terms. We never receive, see, or store your payment details, and we only ever receive aggregate sales reporting that does not identify you individually.
+Where the App is sold, the price shown is set per territory by the store and includes taxes the store collects on our behalf.
+
+- **Apple or Google handle any store-level sale, not us.** Your payment is processed entirely by the store, under its own terms. We never receive, see, or store your payment details, and receive only the reporting supplied by that store.
 - **Refunds are handled by the store.** Request a refund through Apple's *Report a Problem* process (reportaproblem.apple.com) or Google Play's refund process, whichever you purchased from. We have no ability to issue, deny, or reverse a store refund ourselves.
 - **EU and EEA consumers.** Nothing in these Terms limits your statutory rights, including your right of withdrawal for digital content and your rights where the App does not conform to what was described, under Directive (EU) 2019/770 and the Consumer Rights Directive as they apply through the store you purchased from.
 - **What you are buying.** A purchase gives you access to the App as it exists at the time of purchase, on the platforms where it is offered. It is not a subscription and does not entitle you to any particular future feature. Section 10 applies to changes and discontinuation.
@@ -94,7 +99,7 @@ All content, design, code, trademarks, and other materials in the App belong to 
 
 ## 9. Third-Party Services
 
-The App relies on: **Google Firebase** (authentication and database), **Apple** (Sign in with Apple, on iOS), **Google** (Google Sign-In), and a **Vercel**-hosted backend that processes balance, daily-claim, achievement, legal-acceptance and account-deletion operations. The App is distributed and sold through the **Apple App Store** and **Google Play**. Your use of the App is also subject to those providers' own terms and privacy policies. No advertising network is used.
+The App relies on **Google Firebase** (authentication, database, and optional consent-based Analytics/Crashlytics), **Apple** (Sign in with Apple and iOS distribution), **Google** (Google Sign-In, Google Play, and Android-only AdMob rewarded ads), and a **Vercel**-hosted backend for server-authoritative operations and monitoring. Your use of those services is also subject to their terms and privacy policies. AdMob is never loaded or bundled in the iOS edition.
 
 ---
 
@@ -148,4 +153,4 @@ We aim to respond within 5 business days.
 
 ---
 
-*These Terms and Conditions were last updated on 2026-09-10 (v1.0). See also our [Privacy Policy](./PRIVACY_POLICY.md).*
+*These Terms and Conditions were last updated on 2026-09-19 (v1.1). See also our [Privacy Policy](./PRIVACY_POLICY.md).*
